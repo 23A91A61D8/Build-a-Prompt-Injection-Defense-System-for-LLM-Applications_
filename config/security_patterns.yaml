@@ -1,0 +1,29 @@
+prompt_injection:
+  - "ignore .* instructions"
+  - "ignore instructions"
+  - "bypass .* safety"
+  - "bypass .* rules"
+  - "disregard .* rules"
+  - "override .* instructions"
+
+jailbreak:
+  - "act as .*"
+  - "roleplay .*"
+  - "pretend to be .*"
+  - "you are now .*"
+
+prompt_leak:
+  - "system prompt"
+  - "show .* prompt"
+  - "reveal .* instructions"
+  - "leak .* data"
+
+indirect:
+  - "ignore .* instructions"
+  - "ignore instructions"
+  - "execute silently"
+  - "execute .* silently"
+  - "hidden instruction"
+  - "hidden .* instruction"
+  - "bypass .* security"
+  - "bypass .* filters"
